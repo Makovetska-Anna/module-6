@@ -28,7 +28,7 @@ overflow: hidden;
 .navigation{
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-start;
+	align-items: center;
 }
 .menu-nav{
 	list-style: none;
@@ -67,12 +67,10 @@ transition-timing-function: linear;
 }
 
 
-.link{
-	width: 60px;
-}
+
 
 .link:not(:last-child){
-	padding-right: 55px;
+	margin-right: 55px;
 }
 .logo{
 	font-family:'Montserrat', sans-serif;
@@ -130,7 +128,10 @@ transition-timing-function: linear;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 65px;
-	margin-bottom: 90px;
+	
+}
+.team{
+	margin-top: 90px;
 }
 .item{
 	font-family:'Montserrat', sans-serif;
@@ -199,8 +200,7 @@ transition-timing-function: linear;
 	padding: 0;
 	border: none;
 	margin-top: 90px;
-	margin-bottom: 85px;
-	justify-content: space-between;
+  justify-content: space-between;
 }
 .photo{
 	display: flex;
@@ -301,6 +301,7 @@ transition-timing-function: linear;
 	margin: 0 auto;
 	padding: 0;
 	border: none;
+	margin-top: 85px;
 }
 .end::before{
 	content: '';
@@ -324,7 +325,7 @@ transition-timing-function: linear;
 }
 .buton{
 	width: 151px;
-	height: 40px;
+	height: 42px;
 	background-color: #95e1d3;
 	text-align: center;
 	color: #ffffff;
@@ -340,7 +341,7 @@ transition-timing-function: linear;
 }
 .email-window{
 	width: 229px;
-	height: 38px;
+	height: 40px;
 	border: 1px solid #e5e5e5;
 	margin: 0;
 	padding: 0;
