@@ -53,9 +53,12 @@ transition-duration: 200ms;
 transition-timing-function: linear;
 }
 
+.link{
+	height: 15px;
+	width: 70px;
+}
 
-
-.menu-link:hover::after{
+.link:hover::after{
 	content: '';
 	display: table;
 	width: 50px;
@@ -214,8 +217,8 @@ transition-timing-function: linear;
 }
 
 .background{
-	background: linear-gradient( to top, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-	opacity: 0;
+	background: linear-gradient( to top, rgb(252,227,138,0) 0%, rgb(243,129,129,0) 100%);
+	
 	width: 380px;
 	height: 470px;
 	position: absolute;
@@ -225,12 +228,12 @@ transition-timing-function: linear;
 	cursor: pointer;
 }
 .photo:hover .background{
-	opacity: 0.9;
+	background: linear-gradient( to top, rgb(252,227,138,0.9) 0%, rgb(243,129,129,0.9) 100%);
 	transition-duration: 200ms;
 	transition-timing-function:linear;
 }
 
-.photo:hover .society{
+.photo:hover .ikon{
 opacity: 1;
 transition-duration: 200ms;
 transition-timing-function: linear;
@@ -274,6 +277,9 @@ transition-timing-function: linear;
 	cursor: pointer;
 	background-color: #fce38a;
 	
+}
+.ikon{
+opacity: 0;
 }
 
 .name{
